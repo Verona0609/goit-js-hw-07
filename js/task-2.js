@@ -28,15 +28,19 @@ const images = [
     const galleryEl = document.querySelector(".gallery");
 
     
-    images.forEach(image => {
+    const imagesEl = images.forEach(image => {
         const img = document.createElement("img");
         const li = document.createElement("li");
     
-        img.src = image.url;
-        img.alt = image.alt;
+        img.src = images.url;
+        img.alt = images.alt;
         li.append(img)
-        galleryEl.append(li);
+    galleryEl.append(li);
+    
     });
+   
+
+
    
     
 
