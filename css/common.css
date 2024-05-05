@@ -150,6 +150,9 @@ height: 40px;
 background: #ff4e4e;
 color: #fff;
   }
-div #boxes{
-  background-color: #4e75ff;
+#boxes{
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+ gap: 10px;
 }

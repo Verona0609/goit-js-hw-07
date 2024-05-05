@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () =>{
   const input = document.querySelector("input");
-  const createBtn = document.querySelector("button");
-  const destroyBtn = document.querySelector("button");
+  const createBtn = document.querySelector(`button[data-create]`);
+  const destroyBtn = document.querySelector(`button[data-destroy]`);
   const boxesContainer = document.querySelector(`#boxes`);
   
 
